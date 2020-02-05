@@ -1,0 +1,25 @@
+{
+  "name": "calendar-proxy",
+  "version": "1.0.0",
+  "description": "This is the proxy. TBC.",
+  "main": "index.js",
+  "scripts": {
+    "proxy": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRR43-Team-Leia/Calendar-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HRR43-Team-Leia/Calendar-Proxy/issues"
+  },
+  "homepage": "https://github.com/HRR43-Team-Leia/Calendar-Proxy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
